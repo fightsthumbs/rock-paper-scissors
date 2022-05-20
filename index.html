@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock — Paper — Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rock ✊ Paper ✋ Scissors ✌</h1>
+    </header>
+<main>
+    <div class="main-container">
+        
+            <div id="options">
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+            </div>
+            <div #game-result class="result-container">
+                <h2 class="result-title">
+                    Result
+                </h2>
+                <div class="selections-container">
+                    <div class="computer-selection cards-container">
+                        <p class="result-subtitle">Computer</p>
+                        <p class="result" id="computerResult"></p>
+                    </div>
+                    <p class="versus">VS.</p>
+                    <div class="user-selection cards-container">
+                        <p class="result-subtitle">You</p>
+                        <p class="result" id="userResult"></p>
+                    </div>
+                </div>
+                <div class="final-result" id="final-result"></div>
+            </div>
+        
+    </div>
+</main>
+    <footer>
+        <button id="button-1" onclick="console.log('hello world')">Click me to print "Hello World"</button>
+        <button id="button-2">Click to print "Fuck you"</button>
+        <button id="button-3">Click me to <i>Show an Alert</i></button>
+    </footer>
+
+    <script>
+        const button2 = document.querySelector("#button-2");
+        button2.addEventListener("click",() => {
+            console.log("Fuck You")
+        })
+    </script>
+
+    <script src="app.js"></script>
+</body>
+</html>
