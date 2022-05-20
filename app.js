@@ -59,8 +59,8 @@ function whoWins(user) {
     finalResult = `You win!🤘😁🎉`
   }
 
-  resultComputer.innerHTML = `<span class="icon icon-${options[comp].toLowerCase()}"></span>`;
-  resultUser.innerHTML = `<span class="icon icon-${options[user].toLowerCase()}"></span>`;
+  resultComputer.innerHTML = `${options[comp]} <span class="icon icon-${options[comp].toLowerCase()}"></span>`;
+  resultUser.innerHTML = `${options[user]} <span class="icon icon-${options[user].toLowerCase()}"></span>`;
   resultFinal.textContent = finalResult;
   
 }

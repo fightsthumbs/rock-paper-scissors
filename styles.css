@@ -129,6 +129,10 @@ div.user-selection:hover {
   font-size: x-large;
 }
 
+.result {
+  text-align: center;
+}
+
 .final-result {
   margin-top: 25px;
   text-align: center;
@@ -150,17 +154,17 @@ span.icon {
 
 
 .icon-scissors {
-  background-image: url(/imgs/icon-scissors.svg);
+  background-image: url(./imgs/icon-scissors.svg);
 
 }
 
 .icon-rock {
-  background-image: url(/imgs/icon-rock.svg);
+  background-image: url(./imgs/icon-rock.svg);
 
 }
 
 .icon-paper {
-  background-image: url(/imgs/icon-paper.svg);
+  background-image: url(./imgs/icon-paper.svg);
 
 }
 
