@@ -15,23 +15,28 @@
     <div class="main-container">
         
             <div id="options">
-                <button id="rock">Rock</button>
-                <button id="paper">Paper</button>
-                <button id="scissors">Scissors</button>
+                <button id="rock" class="options" data-key="1">Rock</button>
+                <button id="paper" class="options" data-key="2">Paper</button>
+                <button id="scissors" class="options" data-key="3">Scissors</button>
             </div>
             <div #game-result class="result-container">
+                <button id="reset-button" class="reset-btn">Reset</button>
                 <h2 class="result-title">
                     Result
                 </h2>
                 <div class="selections-container">
                     <div class="computer-selection cards-container">
-                        <p class="result-subtitle">Computer</p>
-                        <p class="result" id="computerResult"></p>
+                        <p class="result-subtitle">Computer<span class="computer-score"></span></p>
+                        <p class="result" id="computerResult">
+                            <span class=""></span>
+                        </p>
                     </div>
                     <p class="versus">VS.</p>
                     <div class="user-selection cards-container">
-                        <p class="result-subtitle">You</p>
-                        <p class="result" id="userResult"></p>
+                        <p class="result-subtitle ">You<span class="user-score"></span></p>
+                        <p class="result " id="userResult">
+                            <span class=""></span>
+                        </p>
                     </div>
                 </div>
                 <div class="final-result" id="final-result"></div>
@@ -40,9 +45,9 @@
     </div>
 </main>
     <footer>
-        <button id="button-1" onclick="console.log('hello world')">Click me to print "Hello World"</button>
-        <button id="button-2">Click to print "Goodbye Life"</button>
-        <button id="button-3">Click me to <i>Show an Alert</i></button>
+        <button class="bottom" id="button-1" onclick="console.log('hello world')">Click me to print "Hello World"</button>
+        <button class="bottom" id="button-2">Click to print "Goodbye Life"</button>
+        <button class="bottom" id="button-3">Click me to <i>Show an Alert</i></button>
     </footer>
 
     <script>
